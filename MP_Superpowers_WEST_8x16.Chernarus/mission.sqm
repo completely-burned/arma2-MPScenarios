@@ -64,7 +64,7 @@ class Mission
 	randomSeed=928259;
 	class Intel
 	{
-		briefingName="@STRMISSION.SQMMISSION_INTEL0_16 WEST";
+		briefingName="@STRMISSION.SQMMISSION_INTEL0_16 WEST 8p/16b";
 		briefingDescription="@STRMISSION.SQMMISSION_INTEL1";
 		resistanceWest=0;
 		startWeather=0;
@@ -77,7 +77,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=21;
+		items=31;
 		class Item0
 		{
 			side="WEST";
@@ -171,7 +171,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this SetVariable [""customInitMissionScript"",""InitMission.sqf""];";
-					synchronizations[]={0,1,5,6,9,10,2,3,7,8,11,12,13,14,15,16,18,17,19,20,22,21,23,24,25,26,27,28};
+					synchronizations[]={0,1,5,6,9,10,2,3,7,8,11,12,13,14,15,16,18,17,19,20,22,21,23,24,25,26,27,28,32,33,34,35,36,37,38,39,40,41};
 				};
 			};
 		};
@@ -485,6 +485,198 @@ class Mission
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13410,65,14600};
+					id=32;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13420,65,14600};
+					id=33;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13430,65,14600};
+					id=34;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13440,65,14600};
+					id=35;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13450,65,14600};
+					id=36;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13460,65,14600};
+					id=37;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13470,65,14600};
+					id=38;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13480,65,14600};
+					id=39;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13490,65,14600};
+					id=40;
+					side="EAST";
+					vehicle="RU_Soldier";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="Group this SetVariable[""dedicatedMission"",""DefendBase""];";
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13500,65,14600};
+					id=41;
+					side="EAST";
+					vehicle="RU_Soldier";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="Group this SetVariable[""dedicatedMission"",""PatrolBase""];";
 					synchronizations[]={4};
 				};
 			};
