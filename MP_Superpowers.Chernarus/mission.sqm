@@ -130,7 +130,6 @@ class Mission
 					id=2;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -150,7 +149,6 @@ class Mission
 					id=3;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -229,7 +227,6 @@ class Mission
 					id=7;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -249,7 +246,6 @@ class Mission
 					id=8;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -309,7 +305,6 @@ class Mission
 					id=11;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -329,7 +324,6 @@ class Mission
 					id=12;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -469,7 +463,6 @@ class Mission
 					id=27;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -489,7 +482,6 @@ class Mission
 					id=28;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
