@@ -64,7 +64,7 @@ class Mission
 	randomSeed=928259;
 	class Intel
 	{
-		briefingName="@STRMISSION.SQMMISSION_INTEL0_16 WEST";
+		briefingName="SuperPowers WEST Chernarus";
 		briefingDescription="@STRMISSION.SQMMISSION_INTEL1";
 		resistanceWest=0;
 		startWeather=0;
