@@ -35,7 +35,7 @@ class Mission
 	randomSeed=928259;
 	class Intel
 	{
-		briefingName="@STR_EP1_mission.sqmMission_Intel0_43";
+		briefingName="MountainWarfare EAST";
 		briefingDescription="@STR_EP1_mission.sqmMission_Intel1_16";
 		resistanceWest=0;
 		startWeather=0.0065680146;
@@ -60,7 +60,6 @@ class Mission
 					id=0;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -80,7 +79,6 @@ class Mission
 					id=1;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -100,7 +98,7 @@ class Mission
 					id=2;
 					side="EAST";
 					vehicle="TK_Soldier_SL_EP1";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -159,7 +157,6 @@ class Mission
 					id=5;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -179,7 +176,6 @@ class Mission
 					id=6;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -239,7 +235,6 @@ class Mission
 					id=9;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -259,7 +254,6 @@ class Mission
 					id=10;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -279,7 +273,6 @@ class Mission
 					id=11;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -299,7 +292,6 @@ class Mission
 					id=12;
 					side="WEST";
 					vehicle="US_Soldier_SL_EP1";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
