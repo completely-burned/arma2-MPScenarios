@@ -90,7 +90,6 @@ class Mission
 					id=0;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -110,7 +109,6 @@ class Mission
 					id=1;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -130,7 +128,7 @@ class Mission
 					id=2;
 					side="EAST";
 					vehicle="RU_Soldier_SL";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -189,7 +187,6 @@ class Mission
 					id=5;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -209,7 +206,6 @@ class Mission
 					id=6;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -269,7 +265,6 @@ class Mission
 					id=9;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -289,7 +284,6 @@ class Mission
 					id=10;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -429,7 +423,6 @@ class Mission
 					id=25;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
@@ -449,7 +442,6 @@ class Mission
 					id=26;
 					side="WEST";
 					vehicle="USMC_Soldier_SL";
-					player="PLAY CDG";
 					leader=1;
 					rank="LIEUTENANT";
 					skill=0.60000002;
