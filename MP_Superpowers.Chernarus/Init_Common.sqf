@@ -1,0 +1,1 @@
+BIS_WF_Constants SetVariable["OPPOSITIONMULTIPLIER",1];
