@@ -10,7 +10,7 @@ scriptName "InitMission.sqf";
 
 BIS_WF_Common SetVariable ["sidePlacement",[true,-1,-1]];	//Side placement, use starting logics only.
 BIS_WF_Common SetVariable ["customInitClientScript",""];	//Use default core client initialization.
-BIS_WF_Common SetVariable ["customInitCommonScript",""];	//Run custom common init after core's. You can replace core's common scripts here, or just change values like vote time, etc. Refer to Init_Constants.sqf.
+BIS_WF_Common SetVariable ["customInitCommonScript","InitCommon.sqf"];	//Run custom common init after core's. You can replace core's common scripts here, or just change values like vote time, etc. Refer to Init_Constants.sqf.
 BIS_WF_Common SetVariable ["customInitServerScript",""];	//Use default core server initialization.
 
 BIS_WF_Common SetVariable ["customInitBasesScript",""];		//Create custom base vehicles & patrols.
