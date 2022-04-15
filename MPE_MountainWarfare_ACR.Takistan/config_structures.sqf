@@ -132,11 +132,11 @@ westStructureHeights = _h;
 
 //Note that cost of defenses is in money instead of supplies.
 //WEST STATIONARY DEFENSES
-_v			= ["MiniL2A2"];
-_n			= ["BAF_L2A1_Minitripod_D"];
+_v			= ["DSHKM"];
+_n			= ["DSHKM_CZ_EP1"];
 _d			= [GetText (configFile >> "CfgVehicles" >> (_n Select (Count _n - 1)) >> "displayName")];
 _f			= [BIS_WF_Common GetVariable "WestFactions"];
-_c			= [175];
+_c			= [100];
 _t			= [0];
 _i			= ["\CA\Warfare2\Images\con_mg_nest.paa"];
 _p			= [25];
@@ -147,38 +147,8 @@ _dis		= [0];
 _dir		= [0];
 _h			= [0];
 
-_v = _v		+ ["L2A2"];
-_n = _n		+ ["BAF_L2A1_Tripod_D"];
-_d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_n Select (Count _n - 1)) >> "displayName")];
-_f = _f		+ [BIS_WF_Common GetVariable "WestFactions"];
-_c = _c		+ [200];
-_t = _t		+ [0];
-_i = _i		+ ["\CA\Warfare2\Images\con_gl.paa"];
-_p = _p		+ [25];
-_pt = _pt	+ [5];
-_s = _s		+ ["StationaryDefense"];
-_a = _a		+ [""];
-_dis = _dis	+ [0];
-_dir = _dir	+ [0];
-_h = _h		+ [0];
-
-_v = _v		+ ["GPMG"];
-_n = _n		+ ["BAF_GPMG_Minitripod_D"];
-_d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_n Select (Count _n - 1)) >> "displayName")];
-_f = _f		+ [BIS_WF_Common GetVariable "WestFactions"];
-_c = _c		+ [225];
-_t = _t		+ [0];
-_i = _i		+ ["\CA\Warfare2\Images\con_gl.paa"];
-_p = _p		+ [25];
-_pt = _pt	+ [4];
-_s = _s		+ ["StationaryDefense"];
-_a = _a		+ [""];
-_dis = _dis	+ [0];
-_dir = _dir	+ [0];
-_h = _h		+ [0];
-
-_v = _v		+ ["GMG"];
-_n = _n		+ ["BAF_GMG_Tripod_D"];
+_v = _v		+ ["AGS"];
+_n = _n		+ ["AGS_CZ_EP1"];
 _d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_n Select (Count _n - 1)) >> "displayName")];
 _f = _f		+ [BIS_WF_Common GetVariable "WestFactions"];
 _c = _c		+ [300];
@@ -192,23 +162,8 @@ _dis = _dis	+ [0];
 _dir = _dir	+ [0];
 _h = _h		+ [0];
 
-_v = _v		+ ["ATTripod"];
-_n = _n		+ ["TOW_TriPod_US_EP1"];
-_d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_n Select (Count _n - 1)) >> "displayName")];
-_f = _f		+ [BIS_WF_Common GetVariable "WestFactions"];
-_c = _c		+ [500];
-_t = _t		+ [0];
-_i = _i		+ ["\CA\Warfare2\Images\con_at_pod.paa"];
-_p = _p		+ [40];
-_pt = _pt	+ [3];
-_s = _s		+ ["StationaryDefense"];
-_a = _a		+ [""];
-_dis = _dis	+ [0];
-_dir = _dir	+ [0];
-_h = _h		+ [0];
-
-_v = _v		+ ["AATripod"];
-_n = _n		+ ["Stinger_Pod_US_EP1"];
+_v = _v		+ ["Rbs70"];
+_n = _n		+ ["Rbs70_ACR"];
 _d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_n Select (Count _n - 1)) >> "displayName")];
 _f = _f		+ [BIS_WF_Common GetVariable "WestFactions"];
 _c = _c		+ [500];
@@ -223,7 +178,7 @@ _dir = _dir	+ [0];
 _h = _h		+ [0];
 
 _v = _v		+ ["Mortar"];
-_n = _n		+ ["M252_US_EP1"];
+_n = _n		+ ["2b14_82mm_CZ_EP1"];
 _d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_n Select (Count _n - 1)) >> "displayName")];
 _f = _f		+ [BIS_WF_Common GetVariable "WestFactions"];
 _c = _c		+ [750];
