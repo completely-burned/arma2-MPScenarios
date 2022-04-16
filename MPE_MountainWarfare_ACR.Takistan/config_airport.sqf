@@ -31,6 +31,8 @@ _m = _m		+ [1];
 _t = _t		+ [50];
 _p = _p		+ [50];
 
+// TODO: L159, L39
+
 _pilotCost = 75;
 _data = [West,"Barracks",WPILOT] Call BIS_WF_GetUnitData;
 if (Count _data > 0) then {_pilotCost = _data Select 2};
