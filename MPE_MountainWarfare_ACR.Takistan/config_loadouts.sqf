@@ -22,71 +22,131 @@ _a			= [""];
 _ac			= [0];
 _f			= ["ALL"];
 
-//BAF
-_w = _w		+ ["BAF_L85A2_RIS_Holo"];
-_a = _a		+ ["30Rnd_556x45_Stanag"];
-_c = _c		+ [30];
+//ACR
+_w = _w		+ ["Sa58P_EP1"];
+_a = _a		+ ["30Rnd_762x39_SA58"];
+_c = _c		+ [15];
 _ac = _ac	+ [5];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["BAF_L85A2_RIS_ACOG"];
-_a = _a		+ ["30Rnd_556x45_Stanag"];
-_c = _c		+ [35];
+_w = _w		+ ["Sa58V_EP1"];
+_a = _a		+ ["30Rnd_762x39_SA58"];
+_c = _c		+ [20];
 _ac = _ac	+ [5];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["BAF_L85A2_UGL_Holo"];
-_a = _a		+ ["30Rnd_556x45_Stanag"];
-_c = _c		+ [40];
-_ac = _ac	+ [5];
-_f = _f		+ [_faction];
-
-_w = _w		+ ["BAF_L85A2_RIS_SUSAT"];
-_a = _a		+ ["30Rnd_556x45_Stanag"];
-_c = _c		+ [35];
-_ac = _ac	+ [5];
-_f = _f		+ [_faction];
-
-_w = _w		+ ["BAF_L85A2_UGL_SUSAT"];
-_a = _a		+ ["30Rnd_556x45_Stanag"];
-_c = _c		+ [40];
-_ac = _ac	+ [5];
-_f = _f		+ [_faction];
-
-_w = _w		+ ["BAF_L85A2_RIS_CWS"];
-_a = _a		+ ["30Rnd_556x45_Stanag"];
-_c = _c		+ [55];
-_ac = _ac	+ [5];
-_f = _f		+ [_faction];
-
-_w = _w		+ ["BAF_LRR_scoped"];
-_a = _a		+ ["5Rnd_86x70_L115A1"];
+_w = _w		+ ["Sa58V_CCO_EP1"];
+_a = _a		+ ["30Rnd_762x39_SA58"];
 _c = _c		+ [50];
 _ac = _ac	+ [5];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["BAF_AS50_scoped"];
-_a = _a		+ ["5Rnd_127x99_as50"];
-_c = _c		+ [125];
+_w = _w		+ ["Sa58V_RCO_EP1"];
+_a = _a		+ ["30Rnd_762x39_SA58"];
+_c = _c		+ [60];
+_ac = _ac	+ [5];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["CZ805_A2_ACR"];
+_a = _a		+ ["30Rnd_556x45_Stanag"];
+_c = _c		+ [35];
+_ac = _ac	+ [5];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["CZ805_A2_SD_ACR"];
+_a = _a		+ ["30Rnd_556x45_StanagSD"];
+_c = _c		+ [70];
+_ac = _ac	+ [15];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["CZ805_A1_ACR"];
+_a = _a		+ ["30Rnd_556x45_Stanag"];
+_c = _c		+ [35];
+_ac = _ac	+ [5];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["CZ805_A1_GL_ACR"];
+_a = _a		+ ["30Rnd_556x45_Stanag"];
+_c = _c		+ [45];
+_ac = _ac	+ [5];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["CZ805_B_GL_ACR"];
+_a = _a		+ ["20Rnd_762x51_B_SCAR"];
+_c = _c		+ [65];
+_ac = _ac	+ [5];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["CZ_750_S1_ACR"];
+_a = _a		+ ["10Rnd_762x51_CZ750"];
+_c = _c		+ [85];
+_ac = _ac	+ [5];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["SVD"];
+_a = _a		+ ["10Rnd_762x54_SVD"];
+_c = _c		+ [85];
 _ac = _ac	+ [8];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["BAF_AS50_TWS"];
-_a = _a		+ ["5Rnd_127x99_as50"];
+_w = _w		+ ["SVD_des_EP1"];
+_a = _a		+ ["10Rnd_762x54_SVD"];
+_c = _c		+ [85];
+_ac = _ac	+ [8];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["SVD_NSPU_EP1"];
+_a = _a		+ ["10Rnd_762x54_SVD"];
+_c = _c		+ [100];
+_ac = _ac	+ [8];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["m107"];
+_a = _a		+ ["10Rnd_127x99_m107"];
 _c = _c		+ [150];
-_ac = _ac	+ [8];
+_ac = _ac	+ [15];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["BAF_L7A2_GPMG"];
-_a = _a		+ ["100Rnd_762x51_M240"];
+_w = _w		+ ["m107_TWS_EP1"];
+_a = _a		+ ["10Rnd_127x99_m107"];
+_c = _c		+ [170];
+_ac = _ac	+ [15];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["UK59_ACR"];
+_a = _a		+ ["100Rnd_762x54_PK"];
 _c = _c		+ [55];
 _ac = _ac	+ [15];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["BAF_L110A1_Aim"];
-_a = _a		+ ["200Rnd_556x45_L110A1"];
+_w = _w		+ ["M249_m145_EP1"];
+_a = _a		+ ["100Rnd_556x45_M249"];
 _c = _c		+ [65];
 _ac = _ac	+ [15];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["M60A4_EP1"];
+_a = _a		+ ["100Rnd_762x51_M240"];
+_c = _c		+ [65];
+_ac = _ac	+ [15];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["Evo_ACR"];
+_a = _a		+ ["20Rnd_9x19_EVO"];
+_c = _c		+ [60];
+_ac = _ac	+ [8];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["Evo_mrad_ACR"];
+_a = _a		+ ["20Rnd_9x19_EVO"];
+_c = _c		+ [65];
+_ac = _ac	+ [10];
+_f = _f		+ [_faction];
+
+_w = _w		+ ["evo_sd_ACR"];
+_a = _a		+ ["20Rnd_9x19_EVOSD"];
+_c = _c		+ [70];
+_ac = _ac	+ [10];
 _f = _f		+ [_faction];
 
 for [{_count = Count _w - 1},{_count >= 0},{_count = _count - 1}] do
@@ -125,22 +185,22 @@ _a			= [""];
 _ac			= [0];
 _f			= ["ALL"];
 
-//BAF
-_w = _w		+ ["BAF_NLAW_Launcher"];
-_a = _a		+ ["NLAW"];
-_c = _c		+ [200];
-_ac = _ac	+ [100];
+//ACR
+_w = _w		+ ["RPG7V"];
+_a = _a		+ ["PG7VR"];
+_c = _c		+ [150];
+_ac = _ac	+ [75];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["Javelin"];
-_a = _a		+ ["Javelin"];
-_c = _c		+ [300];
-_ac = _ac	+ [150];
+_w = _w		+ ["MAAWS"];
+_a = _a		+ ["MAAWS_HEAT"];
+_c = _c		+ [250];
+_ac = _ac	+ [75];
 _f = _f		+ [_faction];
 
-_w = _w		+ ["Stinger"];
-_a = _a		+ ["Stinger"];
-_c = _c		+ [200];
+_w = _w		+ ["Igla"];
+_a = _a		+ ["Igla"];
+_c = _c		+ [250];
 _ac = _ac	+ [100];
 _f = _f		+ [_faction];
 
@@ -186,7 +246,7 @@ _a			= [""];
 _ac			= [0];
 _f			= ["ALL"];
 
-//BAF
+// TODO: ACR
 _w = _w		+ ["M9"];
 _a = _a		+ ["15Rnd_9x19_M9"];
 _c = _c		+ [15];
@@ -340,139 +400,6 @@ _m1			= [0];
 _ma1		= [0];
 _f			= ["ALL"];
 
-//BAF
-_n	= _n	+ [westPrimaryNames Select BAF_L85A2_RIS_HoloTYPE];
-_p	= _p	+ [BAF_L85A2_RIS_HoloTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [0];
-_sa	= _sa	+ [0];
-_si	= _si	+ [M9TYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [0];
-_ma1= _ma1	+ [0];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [westPrimaryNames Select BAF_L85A2_RIS_ACOGTYPE];
-_p	= _p	+ [BAF_L85A2_RIS_ACOGTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [0];
-_sa	= _sa	+ [0];
-_si	= _si	+ [M9TYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [0];
-_ma1= _ma1	+ [0];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [Format["%1/%2",westPrimaryNames Select BAF_L85A2_RIS_HoloTYPE,westSecondaryNames Select BAF_NLAW_LauncherTYPE]];
-_p	= _p	+ [BAF_L85A2_RIS_HoloTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [BAF_NLAW_LauncherTYPE];
-_sa	= _sa	+ [1];
-_si	= _si	+ [M9TYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [0];
-_ma1= _ma1	+ [0];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [Format["%1/%2",westPrimaryNames Select BAF_L85A2_UGL_HoloTYPE,westSecondaryNames Select BAF_NLAW_LauncherTYPE]];
-_p	= _p	+ [BAF_L85A2_UGL_HoloTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [BAF_NLAW_LauncherTYPE];
-_sa	= _sa	+ [1];
-_si	= _si	+ [0];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [Rnd_HE_M203TYPE];
-_ma1= _ma1	+ [8];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [Format["%1/%2",westPrimaryNames Select BAF_L85A2_RIS_SUSATTYPE,westSecondaryNames Select BAF_NLAW_LauncherTYPE]];
-_p	= _p	+ [BAF_L85A2_RIS_SUSATTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [BAF_NLAW_LauncherTYPE];
-_sa	= _sa	+ [1];
-_si	= _si	+ [M9TYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [0];
-_ma1= _ma1	+ [0];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [Format["%1/%2",westPrimaryNames Select BAF_L85A2_UGL_SUSATTYPE,westSecondaryNames Select BAF_NLAW_LauncherTYPE]];
-_p	= _p	+ [BAF_L85A2_UGL_SUSATTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [BAF_NLAW_LauncherTYPE];
-_sa	= _sa	+ [1];
-_si	= _si	+ [0];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [Rnd_HE_M203TYPE];
-_ma1= _ma1	+ [8];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [Format["%1/%2",westPrimaryNames Select BAF_L85A2_RIS_CWSTYPE,westSecondaryNames Select BAF_NLAW_LauncherTYPE]];
-_p	= _p	+ [BAF_L85A2_RIS_CWSTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [BAF_NLAW_LauncherTYPE];
-_sa	= _sa	+ [1];
-_si	= _si	+ [M9TYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [0];
-_ma1= _ma1	+ [0];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [westPrimaryNames Select BAF_L7A2_GPMGTYPE];
-_p	= _p	+ [BAF_L7A2_GPMGTYPE];
-_pa	= _pa	+ [4];
-_s	= _s	+ [0];
-_sa	= _sa	+ [0];
-_si	= _si	+ [M9TYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [6];
-_m1	= _m1	+ [0];
-_ma1= _ma1	+ [0];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [westPrimaryNames Select BAF_LRR_scopedTYPE];
-_p	= _p	+ [BAF_LRR_scopedTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [0];
-_sa	= _sa	+ [0];
-_si	= _si	+ [M9SDTYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [SmokeShellTYPE];
-_ma1= _ma1	+ [2];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [westPrimaryNames Select BAF_AS50_scopedTYPE];
-_p	= _p	+ [BAF_AS50_scopedTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [0];
-_sa	= _sa	+ [0];
-_si	= _si	+ [M9SDTYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [SmokeShellTYPE];
-_ma1= _ma1	+ [2];
-_f = _f		+ [_faction];
-
-_n	= _n	+ [westPrimaryNames Select BAF_AS50_TWSTYPE];
-_p	= _p	+ [BAF_AS50_TWSTYPE];
-_pa	= _pa	+ [9];
-_s	= _s	+ [0];
-_sa	= _sa	+ [0];
-_si	= _si	+ [M9SDTYPE];
-_m	= _m	+ [HANDGRENADETYPE];
-_ma	= _ma	+ [4];
-_m1	= _m1	+ [SmokeShellTYPE];
-_ma1= _ma1	+ [2];
-_f = _f		+ [_faction];
-
 //Calculate template costs.
 _c = [];
 _totalTemplates = Count _n;
@@ -500,10 +427,10 @@ westTemplateAmount1 = _ma1;
 westTemplateCosts = _c;
 westTemplateFactions = _f;
 
-westDefaultWeapons = ["BAF_L85A2_RIS_Holo"];
-westDefaultAmmo = ["30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","HandGrenade","HandGrenade","HandGrenade","HandGrenade"];
+westDefaultWeapons = ["Sa58P_EP1"];
+westDefaultAmmo = ["30Rnd_762x39_SA58","30Rnd_762x39_SA58","30Rnd_762x39_SA58","30Rnd_762x39_SA58","HandGrenade","HandGrenade","HandGrenade","HandGrenade"];
 
-westSpecOpDefaultWeapons = ["BAF_L85A2_RIS_Holo"];
+westSpecOpDefaultWeapons = ["CZ805_A2_SD_ACR"];
 westSpecOpDefaultAmmo = ["30Rnd_556x45_StanagSD","30Rnd_556x45_StanagSD","30Rnd_556x45_StanagSD","30Rnd_556x45_StanagSD","HandGrenade","HandGrenade","HandGrenade","HandGrenade"];
 
 //*****************************************************************************************
