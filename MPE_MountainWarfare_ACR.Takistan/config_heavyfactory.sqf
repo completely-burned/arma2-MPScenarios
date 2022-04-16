@@ -7,11 +7,17 @@ ScriptName "Config_HeavyFactory.sqf";
 Private["_c","_config","_crewCost","_data","_m","_p","_soldierCost","_t","_total","_u"];
 
 //WEST
-_u			= ["BAF_FV510_D"];
-_c			= [1500];
+_u			= ["BMP2_Des_ACR"];
+_c			= [1800];
 _m			= [3];
-_t			= [25];
-_p			= [20];
+_t			= [30];
+_p			= [25];
+
+_u = _u		+ ["T72_ACR"];
+_c = _c		+ [2400];
+_m = _m		+ [3];
+_t = _t		+ [40];
+_p = _p		+ [35];
 
 _crewCost = 75;
 _data = [West,"Barracks",WCREW] Call BIS_WF_GetUnitData;
