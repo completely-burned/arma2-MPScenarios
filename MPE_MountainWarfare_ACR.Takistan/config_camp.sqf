@@ -22,7 +22,7 @@ _t = _t		+ [0];
 _p = _p		+ [0];
 _i = _i		+ ["\ca\UI\Data\icon_wf_building_repair_ca.paa"];
 
-_u = _u		+ ["BAF_ATV_D"];
+_u = _u		+ ["ATV_CZ_EP1"];
 _d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_u Select (Count _u - 1)) >> "displayName")];
 _f = _f		+ [GetText (configFile >> "CfgVehicles" >> (_u Select (Count _u - 1)) >> "faction")];
 _c = _c		+ [125];
@@ -30,7 +30,7 @@ _t = _t		+ [10];
 _p = _p		+ [10];
 _i = _i		+ [GetText (configFile >> "CfgVehicles" >> (_u Select (Count _u - 1)) >> "picture")];
 
-_u = _u		+ ["BAF_Offroad_D"];
+_u = _u		+ ["LandRover_CZ_EP1"];
 _d = _d		+ [GetText (configFile >> "CfgVehicles" >> (_u Select (Count _u - 1)) >> "displayName")];
 _f = _f		+ [GetText (configFile >> "CfgVehicles" >> (_u Select (Count _u - 1)) >> "faction")];
 _c = _c		+ [200];
