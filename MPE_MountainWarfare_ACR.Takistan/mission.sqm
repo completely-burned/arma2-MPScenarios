@@ -22,13 +22,16 @@ class Mission
 		"caweapons_e_ammoboxes",
 		"warfarebuildings",
 		"cawheeled_e",
+		"cawheeled_acr_t810",
 		"cawheeled_e_v3s"
 	};
 	addOnsAuto[]=
 	{
 		"cacharacters_e",
 		"Warfare2_E",
-		"cawheeled_e",
+		"CAWheeled_E_LandRover",
+		"cawheeled_acr_t810",
+		"CAWheeled_E",
 		"cawheeled_e_v3s",
 		"takistan"
 	};
