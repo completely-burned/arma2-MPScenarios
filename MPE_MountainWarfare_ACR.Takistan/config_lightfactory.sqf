@@ -31,6 +31,51 @@ _m = _m		+ [2];
 _t = _t		+ [20];
 _p = _p		+ [15];
 
+_u = _u		+ ["BRDM2_Desert_ACR"];
+_c = _c		+ [550];
+_m = _m		+ [2];
+_t = _t		+ [20];
+_p = _p		+ [15];
+
+// TODO: need balance
+	_u = _u		+ ["T810A_Des_MG_ACR"];
+	_c = _c		+ [375];
+	_m = _m		+ [2];
+	_t = _t		+ [22];
+	_p = _p		+ [16];
+
+	_u = _u		+ ["Dingo_DST_ACR"];
+	_c = _c		+ [350];
+	_m = _m		+ [2];
+	_t = _t		+ [18];
+	_p = _p		+ [14];
+
+	_u = _u		+ ["Dingo_GL_DST_ACR"];
+	_c = _c		+ [450];
+	_m = _m		+ [2];
+	_t = _t		+ [22];
+	_p = _p		+ [16];
+
+	/* wdl
+	_u = _u		+ ["Pandur2_ACR"];
+	_c = _c		+ [800];
+	_m = _m		+ [3];
+	_t = _t		+ [25];
+	_p = _p		+ [19];
+	*/
+
+_u = _u		+ ["T810_Des_ACR"];
+_c = _c		+ [300];
+_m = _m		+ [1];
+_t = _t		+ [20];
+_p = _p		+ [12];
+
+_u = _u		+ ["LandRover_Ambulance_Des_ACR"];
+_c = _c		+ [300];
+_m = _m		+ [1];
+_t = _t		+ [18];
+_p = _p		+ [0];
+
 _u = _u		+ ["MtvrSalvage_DES_EP1"];
 _c = _c		+ [350];
 _m = _m		+ [1];
