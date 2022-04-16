@@ -7,25 +7,19 @@ ScriptName "Config_AircraftFactory.sqf";
 Private["_c","_config","_d","_data","_m","_p","_pilotCost","_t","_total","_u"];
 
 //WEST
-_u			= ["BAF_Merlin_HC3_D"];
-_c			= [3000];
-_m			= [1];
+_u			= ["Mi171Sh_CZ_EP1"];
+_c			= [3500];
+_m			= [2];
 _t			= [35];
 _p			= [20];
 
-_u = _u		+ ["CH_47F_BAF"];
-_c = _c		+ [4000];
+_u = _u		+ ["Mi171Sh_rockets_CZ_EP1"];
+_c = _c		+ [5500];
 _m = _m		+ [2];
-_t = _t		+ [40];
-_p = _p		+ [30];
+_t = _t		+ [45];
+_p = _p		+ [40];
 
-_u = _u		+ ["AW159_Lynx_BAF"];
-_c = _c		+ [5000];
-_m = _m		+ [2];
-_t = _t		+ [40];
-_p = _p		+ [30];
-
-_u = _u		+ ["BAF_Apache_AH1_D"];
+_u = _u		+ ["Mi24_D_CZ_ACR"];
 _c = _c		+ [7500];
 _m = _m		+ [2];
 _t = _t		+ [55];
