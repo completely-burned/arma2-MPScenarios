@@ -84,6 +84,7 @@ _u = _u + ["CZ_Soldier_AT_DES_EP1"];
 _c = _c	+ [_u];
 
 // TODO: AA
+/*
 _n = _n	+ ["InfantryAA"];
 _d = _d	+ ["AA Fireteam"];
 _t = _t + [_INFANTRY];
@@ -116,6 +117,7 @@ _u = _u + ["BAF_Soldier_AA_DDPM"];
 _u = _u + ["CZ_Soldier_DES_EP1"];
 _u = _u + ["CZ_Soldier_RPG_Dst_ACR"];
 _c = _c	+ [_u];
+*/
 
 _n = _n	+ ["InfantrySupport"];
 _d = _d	+ ["Support Team"];
@@ -165,7 +167,7 @@ _u = _u + ["CZ_Soldier_Spotter_ACR"];
 _u = _u + ["CZ_Soldier_Sniper_ACR"];
 _c = _c	+ [_u];
 
-_n = _n	+ ["Recon"];
+_n = _n	+ ["ReconLight"];
 _d = _d	+ [GetText (configFile >> "CfgVehicles" >> "M1114_DSK_ACR" >> "displayName")];
 _t = _t + [_MECHANIZED];
 _ab=_ab + [_TEAMTYPENORMAL];
@@ -179,20 +181,7 @@ _u		= ["M1114_DSK_ACR"];
 _u = _u + ["M1114_AGS_ACR"];
 _c = _c	+ [_u];
 
-_n = _n	+ ["MechanizedLight"];
-_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "T810A_Des_MG_ACR" >> "displayName")];
-_t = _t + [_MECHANIZED];
-_ab=_ab + [_TEAMTYPEUNARMED];
-_ai=_ai	+ [false];
-_f = _f	+ [_faction];
-_i = _i	+ [false];
-_l = _l	+ [true];
-_h = _h	+ [false];
-_a = _a	+ [false];
-_u		= ["T810A_Des_MG_ACR"];
-_c = _c	+ [_u];
-
-_n = _n	+ ["MechanizedMedium"];
+_n = _n	+ ["ReconHeavy"];
 _d = _d	+ [GetText (configFile >> "CfgVehicles" >> "Dingo_DST_ACR" >> "displayName")];
 _t = _t + [_MECHANIZED];
 _ab=_ab + [_TEAMTYPENORMAL];
@@ -203,14 +192,38 @@ _l = _l	+ [true];
 _h = _h	+ [false];
 _a = _a	+ [false];
 _u		= ["Dingo_DST_ACR"];
-// чтобы все поместились
 _u = _u + ["Dingo_GL_DST_ACR"];
 _c = _c	+ [_u];
+
+_n = _n	+ ["MechanizedLight"];
+_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "T810_Des_ACR" >> "displayName")];
+_t = _t + [_MECHANIZED];
+_ab=_ab + [_TEAMTYPEUNARMED];
+_ai=_ai	+ [false];
+_f = _f	+ [_faction];
+_i = _i	+ [false];
+_l = _l	+ [true];
+_h = _h	+ [false];
+_a = _a	+ [false];
+_u		= ["T810_Des_ACR"];
+_c = _c	+ [_u];
+
+_n = _n	+ ["MechanizedMedium"];
+_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "T810A_Des_MG_ACR" >> "displayName")];
+_t = _t + [_MECHANIZED];
+_ab=_ab + [_TEAMTYPENORMAL];
+_ai=_ai	+ [false];
+_f = _f	+ [_faction];
+_i = _i	+ [false];
+_l = _l	+ [true];
+_h = _h	+ [false];
+_a = _a	+ [false];
+_u		= ["T810A_Des_MG_ACR"];
 
 _n = _n	+ ["MechanizedHeavy"];
 _d = _d	+ [GetText (configFile >> "CfgVehicles" >> "BMP2_Des_ACR" >> "displayName")];
 _t = _t + [_MECHANIZED];
-_ab=_ab + [_TEAMTYPENORMAL];
+_ab=_ab + [_TEAMTYPEAT];
 _ai=_ai	+ [false];
 _f = _f	+ [_faction];
 _i = _i	+ [false];
@@ -264,7 +277,7 @@ _c = _c	+ [_u];
 _n = _n	+ ["LightPatrol"];
 _d = _d	+ [""];
 _t = _t + [_MECHANIZED];
-_ab=_ab + [_TEAMTYPEAA];
+_ab=_ab + [_TEAMTYPENORMAL];
 _ai=_ai	+ [true];
 _f = _f	+ [_faction];
 _i = _i	+ [false];
@@ -376,9 +389,9 @@ WestTeamTemplateNamesByFaction = [];
 //AI commander preferences for AI teams.
 _t		= ["InfantryFT"];
 _t = _t	+ ["InfantryAT"];
-_t = _t	+ ["Recon"];
+_t = _t	+ ["ReconLight"];
 _t = _t	+ ["TankLight"];
-_t = _t	+ ["Recon"];
+_t = _t	+ ["ReconLight"];
 _t = _t	+ ["TankLight"];
 _t = _t	+ ["InfantryFT"];
 _t = _t	+ ["Sniper"];
