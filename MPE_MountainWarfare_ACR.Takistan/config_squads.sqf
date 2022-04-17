@@ -386,7 +386,7 @@ for [{_count = 0},{_count < _total},{_count = _count + 1}] do
 		WestTeamTemplateFactions = WestTeamTemplateFactions + [_faction];
 
 		//Append squad to faction fast-lookup lists.
-		for [{_count1 = Count WestTeamTemplateFactionIndex},{_count1 >= 0},{_count1 = _count1 - 1}] do
+		for [{_count1 = Count WestTeamTemplateFactionIndex - 1},{_count1 >= 0},{_count1 = _count1 - 1}] do
 		{
 			_list = WestTeamTemplateNamesByFaction Select _count1;
 
