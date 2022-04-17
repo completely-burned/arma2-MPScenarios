@@ -4,7 +4,7 @@ respawn = 3;
 respawndelay = 15;
 respawnDialog = false;
 onLoadMission = $STR_EP1_Description.ext0_10;
-loadScreen = "loading_MPWarfare_co.paa";
+loadScreen = "\ca\missions_e\MPScenarios\MPE_MountainWarfare.Takistan\loading_MPWarfare_co.paa";
 
 class Header
 {
