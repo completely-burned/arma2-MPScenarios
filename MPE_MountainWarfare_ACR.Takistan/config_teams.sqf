@@ -180,7 +180,7 @@ _u = _u + ["M1114_AGS_ACR"];
 _c = _c	+ [_u];
 
 _n = _n	+ ["MechanizedLight"];
-_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "Dingo_DST_ACR" >> "displayName")];
+_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "T810A_Des_MG_ACR" >> "displayName")];
 _t = _t + [_MECHANIZED];
 _ab=_ab + [_TEAMTYPEUNARMED];
 _ai=_ai	+ [false];
@@ -189,24 +189,26 @@ _i = _i	+ [false];
 _l = _l	+ [true];
 _h = _h	+ [false];
 _a = _a	+ [false];
-_u		= ["Dingo_DST_ACR"];
-_c = _c	+ [_u];
-
-_n = _n	+ ["MechanizedMedium"];
-_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "T810A_Des_MG_ACR" >> "displayName")];
-_t = _t + [_MECHANIZED];
-_ab=_ab + [_TEAMTYPENORMAL];
-_ai=_ai	+ [false];
-_f = _f	+ [_faction];
-_i = _i	+ [false];
-_l = _l	+ [false];
-_h = _h	+ [true];
-_a = _a	+ [false];
 _u		= ["T810A_Des_MG_ACR"];
 _c = _c	+ [_u];
 
+_n = _n	+ ["MechanizedMedium"];
+_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "Dingo_DST_ACR" >> "displayName")];
+_t = _t + [_MECHANIZED];
+_ab=_ab + [_TEAMTYPENORMAL];
+_ai=_ai	+ [false];
+_f = _f	+ [_faction];
+_i = _i	+ [false];
+_l = _l	+ [true];
+_h = _h	+ [false];
+_a = _a	+ [false];
+_u		= ["Dingo_DST_ACR"];
+// чтобы все поместились
+_u = _u + ["Dingo_GL_DST_ACR"];
+_c = _c	+ [_u];
+
 _n = _n	+ ["MechanizedHeavy"];
-_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "Dingo_GL_DST_ACR" >> "displayName")];
+_d = _d	+ [GetText (configFile >> "CfgVehicles" >> "BMP2_Des_ACR" >> "displayName")];
 _t = _t + [_MECHANIZED];
 _ab=_ab + [_TEAMTYPENORMAL];
 _ai=_ai	+ [false];
@@ -215,7 +217,7 @@ _i = _i	+ [false];
 _l = _l	+ [false];
 _h = _h	+ [true];
 _a = _a	+ [false];
-_u		= ["Dingo_GL_DST_ACR"];
+_u		= ["BMP2_Des_ACR"];
 _c = _c	+ [_u];
 
 //Not really a tank team. Just gives an easy "downgrade" option for an armor team until heavy factory is available.
