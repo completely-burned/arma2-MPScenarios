@@ -9,6 +9,20 @@ BIS_WF_Constants SetVariable["EASTSTARTINGTOWNSRATIO",0];
 BIS_WF_Constants SetVariable["WESTSTARTINGTOWNSRATIO",0];
 BIS_WF_Constants SetVariable["RESISTANCESTARTINGTOWNSRATIO",0.5];
 
+//AI starting funds.
+for [{_count = 0},{_count < 32},{_count = _count + 1}] do
+{
+	Call Compile Format["EastAI%1Funds = 100000",_count + 1];
+	Call Compile Format["WestAI%1Funds = 100000",_count + 1];
+	Call Compile Format["ResistanceAI%1Funds = 100000",_count + 1];
+};
+EastAICommanderFunds = 50000;
+WestAICommanderFunds = 50000;
+ResistanceAICommanderFunds = 50000;
+EastSupplies = 5000;
+WestSupplies = 5000;
+ResistanceSupplies = 5000;
+
 [] Call Compile PreprocessFile "Config_Factions.sqf";
 [] Call Compile PreprocessFile "Config_Structures.sqf";
 [] Call Compile PreprocessFile "Config_Barracks.sqf";
