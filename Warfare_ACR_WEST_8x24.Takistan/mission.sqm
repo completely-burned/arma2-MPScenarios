@@ -36,7 +36,7 @@ class Mission
 	randomSeed=928259;
 	class Intel
 	{
-		briefingName="Warfare, Takistan, ACR";
+		briefingName="Warfare, Takistan, ACR, WEST";
 		resistanceWest=0;
 		startWeather=0.0065680146;
 		forecastWeather=0;
