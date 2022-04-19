@@ -10,18 +10,34 @@ BIS_WF_Constants SetVariable["WESTSTARTINGTOWNSRATIO",0];
 BIS_WF_Constants SetVariable["RESISTANCESTARTINGTOWNSRATIO",0.5];
 
 //AI starting funds.
-for [{_count = 0},{_count < 32},{_count = _count + 1}] do
-{
-	Call Compile Format["EastAI%1Funds = 100000",_count + 1];
-	Call Compile Format["WestAI%1Funds = 100000",_count + 1];
-	Call Compile Format["ResistanceAI%1Funds = 100000",_count + 1];
+// TODO: Enemy only +.
+private ["_param_starting_funds"];
+if (isMultiplayer) then {
+	_param_starting_funds = paramsArray Select 15;
+}else{
+	_param_starting_funds = 50000;
 };
-EastAICommanderFunds = 50000;
-WestAICommanderFunds = 50000;
-ResistanceAICommanderFunds = 50000;
-EastSupplies = 5000;
-WestSupplies = 5000;
-ResistanceSupplies = 5000;
+if (_param_starting_funds >= 0) then {
+	private ["_tmp"];
+	_tmp =+ _param_starting_funds;
+	for [{_count = 0},{_count < 32},{_count = _count + 1}] do
+	{
+		// TODO: random
+		Call Compile Format["EastAI%1Funds = %2",_count + 1, _tmp];
+		Call Compile Format["WestAI%1Funds = %2",_count + 1, _tmp];
+		Call Compile Format["ResistanceAI%1Funds = %2",_count + 1, _tmp];
+	};
+
+	_tmp = (_param_starting_funds / 2500);
+
+	EastAICommanderFunds = round (3500 * _tmp);
+	WestAICommanderFunds = round (3500 * _tmp);
+	ResistanceAICommanderFunds = round (3500 * _tmp);
+
+	EastSupplies = 2000;
+	WestSupplies = 2000;
+	ResistanceSupplies = 2000;
+};
 
 [] Call Compile PreprocessFile "Config_Factions.sqf";
 [] Call Compile PreprocessFile "Config_Structures.sqf";
