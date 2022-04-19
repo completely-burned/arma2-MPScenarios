@@ -47,7 +47,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=21;
+		items=39;
 		class Item0
 		{
 			side="WEST";
@@ -141,7 +141,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					init="this SetVariable [""customInitMissionScript"",""InitMission.sqf""];";
-					synchronizations[]={0,1,5,6,9,10,11,12,2,3,7,8,13,14,15,16,17,18,19,20,21,24,23,22};
+					synchronizations[]={0,1,5,6,9,10,11,12,2,3,7,8,13,14,15,16,17,18,19,20,21,24,23,22,35,36,37,38,40,39,42,41,25,27,26,29,28,31,30,32,33,34};
 				};
 			};
 		};
@@ -455,6 +455,350 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					init="Group this SetVariable[""dedicatedMission"",""DefendBase""];";
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,337.19977,-326.33636};
+					id=25;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={25,4};
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,339.95801,-348.61761};
+					id=26;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,343.32355,-370.9516};
+					id=27;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item24
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,346.04385,-391.55951};
+					id=28;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item25
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,348.82779,-413.2431};
+					id=29;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item26
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,351.76627,-435.67462};
+					id=30;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item27
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,354.35855,-454.34064};
+					id=31;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.04,358.79868,-472.36798};
+					id=32;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.608,368.79233,-518.92267};
+					id=33;
+					side="EAST";
+					vehicle="TK_Soldier_EP1";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="Group this SetVariable[""dedicatedMission"",""PatrolBase""];";
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13938.608,372.61893,-542.79376};
+					id=34;
+					side="EAST";
+					vehicle="TK_Soldier_EP1";
+					leader=1;
+					rank="SERGEANT";
+					skill=0.60000002;
+					init="Group this SetVariable[""dedicatedMission"",""DefendBase""];";
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,406.77951,-1037.5928};
+					id=35;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item32
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,411.15195,-1059.874};
+					id=36;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item33
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,414.104,-1082.208};
+					id=37;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item34
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,417.62372,-1102.8159};
+					id=38;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item35
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,422.95508,-1124.4995};
+					id=39;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,427.87497,-1146.9309};
+					id=40;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4,40};
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,431.54443,-1165.5969};
+					id=41;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					synchronizations[]={4};
+				};
+			};
+		};
+		class Item38
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13936.161,435.04123,-1183.6243};
+					id=42;
+					side="EAST";
+					vehicle="TK_Soldier_SL_EP1";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
 					synchronizations[]={4};
 				};
 			};
