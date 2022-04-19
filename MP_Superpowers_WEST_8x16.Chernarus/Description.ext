@@ -7,7 +7,7 @@ class Header
 {
 	gameType = CTI;
 	minPlayers = 1;
-	maxPlayers = 16;
+	maxPlayers = 8;
 };
 
 class Params 
