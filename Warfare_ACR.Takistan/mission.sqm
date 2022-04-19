@@ -39,7 +39,6 @@ class Mission
 	class Intel
 	{
 		briefingName="Warfare, Takistan, ACR";
-		briefingDescription="@STR_EP1_mission.sqmMission_Intel1_16";
 		resistanceWest=0;
 		startWeather=0.0065680146;
 		forecastWeather=0;
