@@ -112,7 +112,7 @@ for [{_count = Count _v - 1},{_count >= 0},{_count = _count - 1}] do
 WESTAIRPORTTYPE = Count _v;
 WESTDEPOTTYPE = Count _v + 1;
 WESTMHQNAME = "M1130_CV_EP1";
-WESTFLAGPOLE = "\ca\data_baf\flag_unionjack_co.paa";
+WESTFLAGPOLE = "\ca\ca_e\data\flag_cz_co.paa";
 WESTCONSTRUCTIONSITE1 = "Land_Misc_Cargo1E_EP1";
 WESTCONSTRUCTIONSITE2 = "Land_Misc_Cargo1E_EP1";
 
