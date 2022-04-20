@@ -397,5 +397,31 @@ _t = _t	+ ["InfantryFT"];
 _t = _t	+ ["Sniper"];
 WestAITeamTemplates = _t;
 
+_t		= ["InfantryFT"];
+_t = _t	+ ["InfantryAT"];
+_t = _t	+ ["MechanizedMedium"];
+_t = _t	+ ["TankLight"];
+_t = _t	+ ["ReconLight"];
+_t = _t	+ ["TankLight"];
+_t = _t	+ ["MechanizedMedium"];
+_t = _t	+ ["Sniper"];
+_t = _t	+ ["InfantryFT"];
+_t = _t	+ ["InfantryAT"];
+_t = _t	+ ["MechanizedMedium"];
+_t = _t	+ ["TankLight"];
+_t = _t	+ ["ReconLight"];
+_t = _t	+ ["TankLight"];
+_t = _t	+ ["MechanizedMedium"];
+_t = _t	+ ["Sniper"];
+_t = _t	+ ["InfantryFT"];
+_t = _t	+ ["InfantryAT"];
+_t = _t	+ ["MechanizedMedium"];
+_t = _t	+ ["TankLight"];
+_t = _t	+ ["ReconLight"];
+_t = _t	+ ["TankLight"];
+_t = _t	+ ["MechanizedMedium"];
+_t = _t	+ ["Sniper"];
+EastAITeamTemplates = _t;
+
 //*****************************************************************************************
 //9/6/8 MM - Created file.
