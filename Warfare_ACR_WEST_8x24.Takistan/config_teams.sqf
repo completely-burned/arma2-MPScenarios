@@ -395,22 +395,6 @@ _t = _t	+ ["ReconLight"];
 _t = _t	+ ["TankLight"];
 _t = _t	+ ["InfantryFT"];
 _t = _t	+ ["Sniper"];
-_t = _t	+ ["InfantryFT"];
-_t = _t	+ ["InfantryAT"];
-_t = _t	+ ["ReconLight"];
-_t = _t	+ ["TankLight"];
-_t = _t	+ ["ReconLight"];
-_t = _t	+ ["TankLight"];
-_t = _t	+ ["InfantryFT"];
-_t = _t	+ ["Sniper"];
-_t = _t	+ ["InfantryFT"];
-_t = _t	+ ["InfantryAT"];
-_t = _t	+ ["ReconLight"];
-_t = _t	+ ["TankLight"];
-_t = _t	+ ["ReconLight"];
-_t = _t	+ ["TankLight"];
-_t = _t	+ ["InfantryFT"];
-_t = _t	+ ["Sniper"];
 WestAITeamTemplates = _t;
 
 //*****************************************************************************************
