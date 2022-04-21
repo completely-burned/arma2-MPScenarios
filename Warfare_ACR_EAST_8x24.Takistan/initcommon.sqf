@@ -7,7 +7,7 @@ ScriptName "Config_Factions.sqf";
 BIS_WF_MissionDefaultSide = Civilian;
 BIS_WF_Constants SetVariable["EASTSTARTINGTOWNSRATIO",0];
 BIS_WF_Constants SetVariable["WESTSTARTINGTOWNSRATIO",0];
-BIS_WF_Constants SetVariable["RESISTANCESTARTINGTOWNSRATIO",0.5];
+BIS_WF_Constants SetVariable["RESISTANCESTARTINGTOWNSRATIO",1];
 
 //AI starting funds.
 // TODO: Enemy only +.
