@@ -1,4 +1,4 @@
-scriptName format ["%1MPMissions\WarfareExampleMinimal.Chernarus\InitMission.sqf",BIS_WFdPath];
+scriptName "InitMission.sqf";
 //Last modified 2/25/9
 //*****************************************************************************************
 //Description: This is called before the WF core initialization starts.
