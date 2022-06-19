@@ -143,23 +143,22 @@ _te		= ["Sniper"];
 _te=_te + ["Sniper"];
 _s = _s	+ [_te];
 
-_n = _n	+ ["ReconSquad"];
-_d = _d	+ ["Recon Squad"];
+_n = _n	+ ["LightReconSquad"];
+_d = _d	+ ["Light Recon Squad"];
 _t = _t + [_MECHANIZED];
 _ai=_ai	+ [false];
 _f = _f	+ [_faction];
-_te		= ["Recon"];
-_te=_te	+ ["Recon"];
+_te		= ["ReconLight"];
+_te=_te + ["ReconLight"];
 _s = _s	+ [_te];
 
-_n = _n	+ ["LargeReconSquad"];
-_d = _d	+ ["Large Recon Squad"];
+_n = _n	+ ["MediumReconSquad"];
+_d = _d	+ ["Medium Recon Squad"];
 _t = _t + [_MECHANIZED];
 _ai=_ai	+ [false];
 _f = _f	+ [_faction];
-_te		= ["Recon"];
-_te=_te + ["Recon"];
-_te=_te + ["Recon"];
+_te		= ["ReconLight"];
+_te=_te + ["ReconHeavy"];
 _s = _s	+ [_te];
 
 _n = _n	+ ["MechanizedSquad"];
@@ -366,14 +365,14 @@ for [{_count = 0},{_count < _total},{_count = _count + 1}] do
 		//Now append these new compositions to standard team lists.
 		if (_i) then {WestInfantryTeamTypes = WestInfantryTeamTypes + [count WestTeamTemplates]};
 		if (_l) then {WestLightTeamTypes = WestLightTeamTypes + [count WestTeamTemplates]};
-		if (_h) then 
+		if (_h) then
 		{
 		  //WestHeavyTeamTypes = WestHeavyTeamTypes + [_totalTemplates + _count];
 		  WestHeavyTeamTypes = WestHeavyTeamTypes + [count WestTeamTemplates];
 		};
 		if (_a) then {WestAirTeamTypes = WestAirTeamTypes + [count WestTeamTemplates]};
 		if (_ai Select _count) then {WestAIOnlyTeamTypes = WestAIOnlyTeamTypes + [count WestTeamTemplates]};
-    
+
 		WestTeamTemplates = WestTeamTemplates + [_units];
 		WestTeamTemplateNames = WestTeamTemplateNames + [_n Select _count];
 		WestTeamTemplateDescriptions = WestTeamTemplateDescriptions + [_d Select _count];
