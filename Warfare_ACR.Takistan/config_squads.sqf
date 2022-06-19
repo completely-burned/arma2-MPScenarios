@@ -143,6 +143,15 @@ _te		= ["Sniper"];
 _te=_te + ["Sniper"];
 _s = _s	+ [_te];
 
+_n = _n	+ ["BlackOpsSquad"];
+_d = _d	+ ["SpecOps Squad"];
+_t = _t + [_SPECOPS];
+_ai=_ai	+ [false];
+_f = _f	+ [_faction];
+_te		= ["BlackOps"];
+_te=_te + ["BlackOps"];
+_s = _s	+ [_te];
+
 _n = _n	+ ["LightReconSquad"];
 _d = _d	+ ["Light Recon Squad"];
 _t = _t + [_MECHANIZED];

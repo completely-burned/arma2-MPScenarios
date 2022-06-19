@@ -167,6 +167,22 @@ _u = _u + ["CZ_Soldier_Spotter_ACR"];
 _u = _u + ["CZ_Soldier_Sniper_ACR"];
 _c = _c	+ [_u];
 
+_n = _n	+ ["BlackOps"];
+_d = _d	+ ["Spec Ops Team"];
+_t = _t + [_SPECOPS];
+_ab=_ab + [_TEAMTYPENORMAL];
+_ai=_ai	+ [false];
+_f = _f	+ [_faction];
+_i = _i	+ [true];
+_l = _l	+ [false];
+_h = _h	+ [false];
+_a = _a	+ [false];
+_u		= ["CZ_Special_Forces_DES_EP1"];
+_u = _u + ["CZ_Special_Forces_DES_EP1"];
+_u = _u + ["CZ_Special_Forces_MG_DES_EP1"];
+_u = _u + ["CZ_Special_Forces_DES_EP1"];
+_c = _c	+ [_u];
+
 _n = _n	+ ["ReconLight"];
 _d = _d	+ [GetText (configFile >> "CfgVehicles" >> "M1114_DSK_ACR" >> "displayName")];
 _t = _t + [_MECHANIZED];
@@ -394,7 +410,7 @@ _t = _t	+ ["TankLight"];
 _t = _t	+ ["ReconLight"];
 _t = _t	+ ["TankLight"];
 _t = _t	+ ["InfantryFT"];
-_t = _t	+ ["Sniper"];
+_t = _t	+ ["BlackOps"];
 WestAITeamTemplates = _t;
 
 //*****************************************************************************************
