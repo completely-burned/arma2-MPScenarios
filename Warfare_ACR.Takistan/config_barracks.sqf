@@ -84,6 +84,36 @@ _c = _c		+ [200];
 _t = _t		+ [6];
 _p = _p		+ [7];
 
+_u = _u		+ ["CZ_Special_Forces_DES_EP1"];
+_c = _c		+ [225];
+_t = _t		+ [6];
+_p = _p		+ [7];
+
+_u = _u		+ ["CZ_Special_Forces_Scout_DES_EP1"];
+_c = _c		+ [225];
+_t = _t		+ [6];
+_p = _p		+ [7];
+
+_u = _u		+ ["CZ_Special_Forces_GL_DES_EP1"];
+_c = _c		+ [250];
+_t = _t		+ [6];
+_p = _p		+ [7];
+
+_u = _u		+ ["CZ_Special_Forces_MG_DES_EP1"];
+_c = _c		+ [275];
+_t = _t		+ [7];
+_p = _p		+ [8];
+
+_u = _u		+ ["CZ_Soldier_Spec_Demo_Dst_ACR"];
+_c = _c		+ [300];
+_t = _t		+ [7];
+_p = _p		+ [8];
+
+_u = _u		+ ["CZ_Special_Forces_TL_DES_EP1"];
+_c = _c		+ [350];
+_t = _t		+ [7];
+_p = _p		+ [87];
+
 westBarracksDescriptions = [];
 westBarracksFactions = [];
 westBarracksImages = [];
